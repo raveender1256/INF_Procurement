@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="platformVersion" value="5.1.1"/>
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="appURL" value="https://egyt-dev1.fa.us6.oraclecloud.com"/>
+  <parameter name="platformName" value="Android"/>
+  <parameter name="deviceName" value="emulator-5554"/>
+  <parameter name="device" value="Android Emulator"/>
+  <test name="Parallel">
+    <parameter name="platformVersion" value="5.1.1"/>
+    <parameter name="browser" value="Chrome"/>
+    <parameter name="appURL" value="https://egyt-dev1.fa.us6.oraclecloud.com"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="emulator-5554"/>
+    <parameter name="device" value="Android Emulator"/>
+    <classes>
+      <class name="driverscript.DClass"/>
+    </classes>
+  </test> <!-- Parallel -->
+</suite> <!-- Failed suite [Suite] -->
